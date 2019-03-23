@@ -1,0 +1,20 @@
+{
+    "name": "sequelize-mock-jest",
+    "version": "1.0.0",
+    "description": "Sample project exploring Sequelize and Sequelize-mock with Jest",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.16.4",
+        "mysql": "^2.16.0",
+        "mysql2": "^1.6.5",
+        "sequelize": "^5.1.0"
+    },
+    "devDependencies": {
+        "jest": "^24.5.0",
+        "sequelize-mock": "^0.10.2"
+    },
+    "scripts": {
+        "test": "jest --config ./jest.config.js --forceExit --coverage",
+        "start": "node app.js"
+    }
+}
