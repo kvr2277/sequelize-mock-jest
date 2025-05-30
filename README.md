@@ -1,7 +1,7 @@
 # Sequelize Mock with Jest Demo App
 Demonstrates usage of sequelize-mock with Jest 
 
-
+Test
 # Notes
 
 Creating DB table with any SQL tools
